@@ -97,7 +97,7 @@
                             </li>
                             <li v-show="!ipCtrl && sfzgn == 1">
                                 <div name="area" class="text" style="cursor: pointer" @click="getLocation()">
-                                    <span>所在地点（请打开手机位置功能，并在手机权限设置中选择允许访问位置信息）Your location (Please turn on the location access function on your mobile phone and allow App to access your location)<i class="icon iconfont icon-shuoming"></i></span>
+                                    <span>所在地点（请打开手机位置功能，并在手机权限设置中选择允许访问位置信息）Your location (Please turn on the location access function on your mobile phone and allow App to access your location)<i style="display: none;" class="icon iconfont icon-shuoming"></i></span>
                                     <input v-model="info.area" readonly type="text" placeholder="点击获取地理位置 Click to get geographic location"></div>
                             </li>
 
